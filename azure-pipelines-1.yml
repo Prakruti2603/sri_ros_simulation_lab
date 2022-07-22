@@ -12,7 +12,7 @@ jobs:
   pool:
     name: Default
     demands:
-    - Agent.OS -equals Windows_NT
+    - Agent.OS -equals Windows_11
   steps:
   - script: |
       git submodule update --init
